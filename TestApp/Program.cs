@@ -11,6 +11,7 @@ namespace TestApp
         static void Main(string[] args)
         {
             Console.WriteLine("Start");
+            Console.WriteLine(string.Format("2 + 3 = {0}", TestLib.MathOP.Add(2, 3)));
             Console.WriteLine("Stop");
             Console.ReadKey();
         }
